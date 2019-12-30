@@ -1,6 +1,8 @@
 /* eslint-disable import/prefer-default-export */
-import DashCustomComponents from './components/DashCustomComponents.react';
+import DemoComponent from './components/DemoComponent.react';
+import DatePickerComponent from "./components/DatePickerComponent.react";
 
 export {
-    DashCustomComponents
+    DemoComponent,
+    DatePickerComponent
 };

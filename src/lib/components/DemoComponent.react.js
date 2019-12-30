@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
  * It renders an input with the property `value`
  * which is editable by the user.
  */
-export default class DashCustomComponents extends Component {
+export default class DemoComponent extends Component {
     render() {
         const {id, label, setProps, value} = this.props;
 
@@ -35,9 +35,9 @@ export default class DashCustomComponents extends Component {
     }
 }
 
-DashCustomComponents.defaultProps = {};
+DemoComponent.defaultProps = {};
 
-DashCustomComponents.propTypes = {
+DemoComponent.propTypes = {
     /**
      * The ID used to identify this component in Dash callbacks.
      */

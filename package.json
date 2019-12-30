@@ -2,7 +2,7 @@
   "name": "dash_custom_components",
   "version": "0.0.1",
   "description": "dash custom components",
-"repository": {
+  "repository": {
     "type": "git",
     "url": "git://github.com/https://github.com/jintang413/dash-custom-components.git"
   },
@@ -24,7 +24,7 @@
   "author": "Jin Tang <jintang413@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ramda": "^0.26.1"
+    "react-date-picker": "^7.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",

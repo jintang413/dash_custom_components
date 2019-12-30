@@ -1,7 +1,7 @@
 /* eslint no-magic-numbers: 0 */
 import React, {Component} from 'react';
 
-import { DashCustomComponents } from '../lib';
+import { DemoComponent } from '../lib';
 
 class App extends Component {
 
@@ -20,7 +20,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <DashCustomComponents
+                <DemoComponent
                     setProps={this.setProps}
                     {...this.state}
                 />
